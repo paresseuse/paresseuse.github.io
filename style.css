@@ -1,0 +1,77 @@
+h1{
+	color: white;
+	font-family: "Bookman";
+		-webkit-text-stroke: 2px #61eded;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 100px;
+}
+
+h3{
+	color:blue;
+}
+
+#titlebox{
+	margin:0px;
+	padding:10px;
+	background-color: #001AFF;
+}
+
+span{
+	background-color: bisque;
+}
+
+.middle{
+	font-family:"Arial";
+	text-align:center;
+}
+
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: lavender;
+}
+
+
+li{
+	float: left;
+}
+
+
+li a{
+	display: inline-block;
+	text-decoration: none;
+	text-align:center;
+	color: blue;
+	padding: 15px;
+	font-size: 24px;
+	font-family: "Arial";
+}
+
+/* when someone hovers over */
+li a:hover {
+	background-color: bisque;
+	color: blue;
+}
+
+.column {
+  float: left;
+  height: 100%;
+  width: 30%;
+  padding: 21px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
