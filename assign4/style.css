@@ -1,0 +1,30 @@
+.text{
+	font-family: "Arial";
+	text-align: center;
+	color: blue;
+}
+
+#heading{
+	font-family: "Calibri";
+	color: green;
+}
+
+.photos{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+body{
+	background-color: Azure;
+}
+
+div{
+	align-content: center;
+	height: auto;
+	width: auto;
+	border: 5px dotted white;
+	padding: 15px;
+	margin: 20px;
+}
