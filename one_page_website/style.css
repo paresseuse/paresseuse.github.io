@@ -1,0 +1,62 @@
+h1{
+	color: white;
+	font-family: "Arial Black";
+		-webkit-text-stroke: 1px #61eded;
+	text-shadow: 4px 4px 0px #00e6e6, 8px 8px 0px #01cccc, 12px 12px 0px #00bdbd, 4px 4px 4px rgba(28,110,164,0);
+	text-align: center;
+	font-size: 48px;
+}
+
+.middle{
+	text-align:center;
+}
+
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+
+#titlebox{
+	padding:5px;
+	background-color: #001AFF;
+	background-position: center;
+}
+
+span{
+	width: 350px;
+	height: 48px;
+	padding: 4px;
+	background-color: yellow;
+	background-clip: border-box;
+	box-shadow: 10px 10px #001AFF;
+}
+
+
+h3{
+	font-family:"Arial";
+}
+
+p{
+	font-family:"Arial";
+}
+
+a{
+	font-family:"Arial";
+	font-weight: bold;
+}
+
+.flavors{
+	font-family: "Arial Black";
+	color: black;
+}
+
+ul{
+	font-family:"Arial";
+	list-style-position: inside;
+	list-style-type: circle;
+	margin:0;
+	padding:0;
+}
