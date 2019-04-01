@@ -1,0 +1,122 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #061623;
+	color: white;
+}
+nav{
+	border-bottom: 5px solid chartreuse;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+footer{
+	border: 2px solid chartreuse;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h1{
+   color: chartreuse;
+   font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h2{
+   color: white;
+   font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h5{
+	font-family: 'PT Mono', monospace;
+}
+
+.carousel-item{
+  height:350px;
+} 
+
+.carousel-item img{
+  position:absolute;
+  object-fit:cover;
+  top:0;
+  left:0;
+  min-height:350px;
+
+}
+
+.ticketbutton{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: chartreuse;
+}
+
+.ticketbutton:hover{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: white;
+}
+
+.shopbutton{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: chartreuse;
+}
+
+.shopbutton:hover{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: white;
+}
+
+#tourtitle{
+	background-color:black;
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+#contentbrdr{
+	border: 3px solid chartreuse;
+}
+
+.col-sm{
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+.col-xs{
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+.contacttitles{
+	color:chartreuse;
+}
+#footercopyright{
+	color:chartreuse;
+}
+
+.anchor{
+	display: block;
+	height:125px;
+	margin-top:-125px;
+	visibility:hidden;
+}
+
+.fa{
+  color: white;
+}
