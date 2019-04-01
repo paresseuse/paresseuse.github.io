@@ -51,6 +51,16 @@ h5{
 
 }
 
+.applemusic{
+	font-family:'Arial Black';
+}
+.musictitle{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: chartreuse;
+}
+
 .ticketbutton{
 	background-color:black;
 	border:1px solid white;
@@ -81,6 +91,16 @@ h5{
    font-weight: normal; 
    font-style: normal; 
 	color: white;
+}
+
+.navbarlinks{
+	color:white;
+	font-size:18px;
+}
+
+.navbarlinks:hover{
+	color:chartreuse;
+	font-size:18px;
 }
 
 #tourtitle{
@@ -117,6 +137,6 @@ h5{
 	visibility:hidden;
 }
 
-.fa{
+.fab{
   color: white;
 }
