@@ -1,0 +1,333 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #061623;
+	color: white;
+}
+nav{
+	border-bottom: 5px solid chartreuse;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+footer{
+	border: 2px solid chartreuse;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h1{
+   color: chartreuse;
+   font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h2{
+   color: white;
+   font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+h5{
+	font-family: 'PT Mono', monospace;
+}
+
+.carousel-item{
+  height:350px;
+} 
+
+.carousel-item img{
+  position:absolute;
+  object-fit:cover;
+  top:0;
+  left:0;
+  min-height:350px;
+
+}
+
+.applemusic{
+	font-family:'Arial Black';
+}
+.musictitle{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: chartreuse;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.ticketbutton{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: chartreuse;
+}
+
+.ticketbutton:hover{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'PT Mono', monospace;
+	color: white;
+}
+
+.shopbutton{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: chartreuse;
+}
+
+.shopbutton:hover{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: white;
+}
+
+.signupbutton{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: chartreuse;
+}
+
+.signupbutton:hover{
+	background-color:black;
+	border:1px solid white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	color: white;
+}
+
+.navbarlinks{
+	color:white;
+	font-size:18px;
+}
+
+.navbarlinks:hover{
+	color:chartreuse;
+	font-size:18px;
+}
+
+#tourtitle{
+	background-color:black;
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+#contentbrdr{
+	border: 3px solid chartreuse;
+}
+
+.col-sm{
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+.col-xs{
+	color:chartreuse;
+	font-family: 'PT Mono', monospace;
+}
+
+.contacttitles{
+	color:chartreuse;
+}
+
+#footercopyright{
+	color:chartreuse;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+#websiteby{
+	color:white;
+	font-family: 'ChicagoFLFRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+.anchor{
+	display: block;
+	height:125px;
+	margin-top:-125px;
+	visibility:hidden;
+}
+
+.fab{
+  color: white;
+}
+.fas{
+	color:white;
+}
+.fab:hover{
+	color: chartreuse;
+	text-decoration:none;
+}
+
+.fas:hover{
+	color: chartreuse;
+	text-decoration:none;
+}
+
+.blink{
+	animation:blinkingText 1s infinite;
+}
+
+@keyframes blinkingText{
+	0%{opacity:0}
+	49%{opacity:0}
+	50%{opacity:1}
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 767px){
+
+h2{
+	padding-left:40%;
+}
+
+h5{
+	font-size:18px;
+}
+
+.musictitle{
+	font-size:14px;
+}
+
+.contacttitles{
+	font-size:18px;
+}
+
+p{
+		font-size:14px;
+}
+
+footer{
+	font-size: 12px;
+}
+
+
+.fas{
+	width:10px;
+	height:10px;
+}
+
+form.input-group{
+	width:70%;
+	height:50%;
+}
+
+input.form-control{
+	height:16px !important;
+}
+
+button.ticketbutton{
+	height:50%;
+	font-size:14px;
+}
+
+button.signupbutton{
+	height:75%;
+	padding-top: 0px;
+	font-size:11px;
+}
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px){
+
+p{
+	font-size:16px;
+}
+
+.musictitle{
+	font-size:18px;
+}
+
+footer{
+	font-size: 14px;
+}
+
+.fas{
+	width:10px;
+	height:10px;
+}
+
+form.input-group{
+	width:100%;
+}
+
+input.form-control{
+	height:100% !important;
+}
+
+button.ticketbutton{
+	height:50%;
+	font-size:14px;
+}
+
+button.signupbutton{
+	height:100%;
+	padding-top: 0px;
+	font-size:12px;
+}
+
+}
+
+@media only screen and (min-width:992px){
+
+p{
+	font-size:20px;
+}
+
+.musictitle{
+	font-size:21px;
+}
+
+footer{
+	font-size: 18px;
+}
+
+.fas{
+	width:16px;
+	height:16px;
+}
+
+form.input-group{
+	width:100%;
+}
+
+input.form-control{
+	height:100% !important;
+}
+
+button.ticketbutton{
+	height:50%;
+	font-size:16px;
+}
+
+button.signupbutton{
+	height:100%;
+	padding-top: 0px;
+	font-size:12px;
+}
+
+}
+
+
