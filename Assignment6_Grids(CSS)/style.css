@@ -1,0 +1,52 @@
+h1{
+	text-align:center;
+	font-family: 'Arial Black';
+}
+
+.container{
+	display:grid;
+	grid-template-rows:1fr 1fr;
+	grid-template-columns:20% 20% 20% 20% 20%;
+	justify-items: center;
+}
+
+span{
+	font-family: 'Arial Black';
+}
+
+.figure-caption{
+	color:black;
+	font-family:'Arial';
+}
+
+
+#cglass{
+	width:200px;
+	height:200px;
+	background-color: #81E4BD;
+}
+
+
+#bpan{
+	width:200px;
+	height:200px;
+	background-color: #1E3F63;
+}
+
+#mango{
+	width:200px;
+	height:200px;
+	background-color: #FFAD4F;
+}
+
+#mvio{
+	width:200px;
+	height:200px;
+	background-color: #ADA1C3;
+}
+
+#lilpig{
+	width:200px;
+	height:200px;
+	background-color: #ECD1D6;
+}

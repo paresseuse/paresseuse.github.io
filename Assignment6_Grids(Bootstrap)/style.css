@@ -1,0 +1,42 @@
+h1{
+	font-family: 'Arial Black';
+}
+
+span{
+	font-family: 'Arial Black';
+}
+
+.figure-caption{
+	color:black;
+}
+
+
+#cglass{
+	width:200px;
+	height:200px;
+	background-color: #81E4BD;
+}
+
+#bpan{
+	width:200px;
+	height:200px;
+	background-color: #1E3F63;
+}
+
+#mango{
+	width:200px;
+	height:200px;
+	background-color: #FFAD4F;
+}
+
+#mvio{
+	width:200px;
+	height:200px;
+	background-color: #ADA1C3;
+}
+
+#lilpig{
+	width:200px;
+	height:200px;
+	background-color: #ECD1D6;
+}
