@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Calculator</title>
+</head>
+<body>
+
+  <label>Square this number:
+    <input type="number" id="square-input" size="2">
+  </label>
+  <button id="square-button" onclick="squareNumber()">Calculate</button>
+  <br><br>
+  <div id="squareResult"></div>
+  <br><br>
+  
+  <label>Half this number:
+    <input type="number" id="half-input" size="2">
+  </label>
+  <button id="half-button" onclick="halfNumber()">Calculate</button>
+  <br><br>
+  <div id="halfResult"></div>
+  <br><br>
+  
+  <label>
+    Fraction:
+    <input type="number" id="percent1-input" size="2">
+  </label>
+  <label>
+    Whole:
+    <input type="number" id="percent2-input" size="2">
+  </label>
+  <button id="percent-button" onclick="percentOf()">Calculate</button>
+  <br><br>
+  <div id="percentResult"></div>
+  <br><br>
+  
+  <label>Calculate area of circle with radius:
+    <input type="number" id="area-input" size="2">
+  </label>
+  <button id="area-button" onclick="areaOfCircle()">Calculate</button> 
+  <br><br>
+  <div id="solution"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
